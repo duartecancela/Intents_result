@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Intents</string>
+    <string name="edit_text_person_name">Insert name</string>
+    <string name="button_next">Next</string>
+    <string name="text_view_count_result">Count result</string>
+    <string name="text_view_personname_result">Personname Result</string>
+</resources>
