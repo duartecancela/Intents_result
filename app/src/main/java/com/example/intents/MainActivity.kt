@@ -32,12 +32,11 @@ class MainActivity : AppCompatActivity() {
         }
 
         buttonNext.setOnClickListener {
-            val n =  editTextPersonName.text.toString()
+            val personName = editTextPersonName.text.toString()
             val intent = Intent(this, ResultActivity::class.java)
-            intent.putExtra("name", n)
+            intent.putExtra("name", personName)
             intent.putExtra("number", number)
             startActivity(intent)
-
         }
 
     }
